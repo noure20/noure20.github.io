@@ -1,6 +1,6 @@
 header h1{
     text-align: center;
-    
+    color: red;
 }
 #main{
     overflow-x: scroll;
