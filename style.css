@@ -2,13 +2,14 @@ header h1{
     text-align: center;
     
 }
-main{
+#main{
     overflow-x: scroll;
-    height: 500px;
+    
+
 }
 #p1{
     overflow-wrap: normal;
-    width: 200px;
+    width: 250px;
     position: absolute;
     top: 150px;
     left: 35px;
@@ -17,12 +18,11 @@ main{
     position: absolute;
     top: 70px;
     left: 150px;
-    width: 250px;
-    height: 2000px;
+    width: 300px;
 }
 #p2{
     overflow-wrap: normal;
-    width: 200px;
+    width: 250px;
     position: absolute;
     top: 500px;
     left: 400px;
