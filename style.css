@@ -4,7 +4,7 @@ header h1{
 }
 main{
     overflow-y: scroll;
-    height: 75%;
+    height: max-content;
 }
 #p1{
     overflow-wrap: normal;
