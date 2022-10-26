@@ -18,6 +18,7 @@ main{
     top: 70px;
     left: 150px;
     width: 250px;
+    height: 2000px;
 }
 #p2{
     overflow-wrap: normal;
