@@ -1,31 +1,88 @@
 
 body{
     background-color: black;
-}
-header{
-    display: inline;
-    
-}
-header img{
-    opacity: 0;
-    width: 25%;
-    height: 300px;
-    border: 10px solid white; 
-    margin-left: 75px;
-    margin-top: -90px;
-    
-    
-}
-header h1{
-    padding-top: 70px;
-    
     color: white;
     text-align: center;
-    
 }
-header:hover img{
+
+header{
+    display: inline;
+    height: 300px;
+}
+#pic img{
+    opacity: 0;
+}
+#pic1{
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    left: 80px;
+    top: 300px;
+}
+#pic2{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 1200px;
+    top: 450px;
+}
+#pic3{
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    left: 1200px;
+    top: 50x;
+}
+#pic4{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 80px;
+    top: 40px;
+}
+#pic1:hover{
     opacity: 1;
 }
-header:hover h1{
-    opacity: 0;
+#pic2:hover{
+    opacity: 1;
+}
+#pic3:hover{
+    opacity: 1;
+}
+#pic4:hover{
+    opacity: 1;
+}
+header h1{
+    padding-top: 70px;  
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+
+main{
+    padding: 15px;
+    margin-top: 90px;
+    width: 700px;
+    height: 420px;
+    overflow-y: scroll;
+    margin-left: auto;
+    margin-right: auto;
+}
+main h2{
+    font-size: 35px;
+    font-family: 'Abril Fatface', cursive;
+    color: blueviolet;
+}
+main p{
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+}
+main li{
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+}
+a{
+    text-decoration: underline;
+    font-family: 'Satisfy', cursive;
+    color: white;
+    font-size: 20px;
 }
